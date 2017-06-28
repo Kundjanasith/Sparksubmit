@@ -11,7 +11,7 @@ object S90_000_000_T{
         val ratings = data.map(_.split('\t') match { case Array(user, item, rate) => Rating(user.toInt, item.toInt, rate.toDouble)  })
         val rank = 100
         val numIterations = 30
-        val model = ALS.train(ratings, 60, 15, 0.01)
+        val model = ALS.train(ratings, 40, 15, 0.01)
         val usersProducts = ratings.map { case Rating(user, product, rate) => (user, product) }
         val predictions = model.predict(usersProducts).map { case Rating(user, product, rate) => ((user, product), rate) }
         val ratesAndPreds = ratings.map { case Rating(user, product, rate) => ((user, product), rate) }.join(predictions)
