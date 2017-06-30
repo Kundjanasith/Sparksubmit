@@ -1,0 +1,17 @@
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+17/06/30 08:35:09 INFO SparkContext: Running Spark version 1.6.0
+17/06/30 08:35:09 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/06/30 08:35:10 INFO SecurityManager: Changing view acls to: hadoop
+17/06/30 08:35:10 INFO SecurityManager: Changing modify acls to: hadoop
+17/06/30 08:35:10 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(hadoop); users with modify permissions: Set(hadoop)
+17/06/30 08:35:11 INFO Utils: Successfully started service 'sparkDriver' on port 44591.
+17/06/30 08:35:12 INFO Slf4jLogger: Slf4jLogger started
+17/06/30 08:35:12 INFO Remoting: Starting remoting
+17/06/30 08:35:13 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkDriverActorSystem@163.221.29.42:35137]
+17/06/30 08:35:13 INFO Utils: Successfully started service 'sparkDriverActorSystem' on port 35137.
+17/06/30 08:35:13 INFO SparkEnv: Registering MapOutputTracker
+17/06/30 08:35:13 INFO SparkEnv: Registering BlockManagerMaster
+17/06/30 08:35:13 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-4e60672d-8dba-43a8-9b78-4a7eea9b7954
+17/06/30 08:35:13 INFO MemoryStore: MemoryStore started with capacity 511.1 MB
+17/06/30 08:35:13 INFO DiskBlockManager: Shutdown hook called
+17/06/30 08:35:13 INFO ShutdownHookManager: Shutdown hook called

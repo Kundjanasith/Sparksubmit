@@ -4,7 +4,7 @@
 		module="spark-naist_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20170625221921"
+		publication="20170629185601"
 	>
 		<description>
 		Spark Naist

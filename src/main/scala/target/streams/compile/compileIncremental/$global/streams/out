@@ -1,0 +1,354 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/home/hadoop/Sparksubmit/src/main/scala/S10_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S25_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S35_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S45_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S40_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S70_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S5_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S80_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S10_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S45_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S55_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S60_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S90_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S40_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S85_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S100_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S30_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S15_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S20_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S50_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S100_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S50_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S20_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S65_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S15_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S80_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S65_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S70_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/SparkPi.scala, /home/hadoop/Sparksubmit/src/main/scala/S90_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S75_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S95_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S30_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S85_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S55_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S95_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S60_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S25_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S75_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S35_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S5_000_000_T.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/hadoop/Sparksubmit/src/main/scala/S10_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S25_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S35_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S45_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S40_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S70_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S5_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S80_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S10_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S45_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S55_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S60_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S90_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S40_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S85_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S100_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S30_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S15_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S20_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S50_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S100_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S50_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S20_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S65_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S15_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S80_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S65_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S70_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/SparkPi.scala, /home/hadoop/Sparksubmit/src/main/scala/S90_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S75_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S95_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S30_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S85_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S55_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S95_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S60_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S25_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S75_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S35_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S5_000_000_T.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/hadoop/Sparksubmit/src/main/scala/S10_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S25_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S35_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S45_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S40_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S70_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S5_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S80_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S10_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S45_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S55_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S60_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S90_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S40_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S85_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S100_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S30_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S15_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S20_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S50_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S100_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S50_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S20_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S65_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S15_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S80_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S65_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S70_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/SparkPi.scala, /home/hadoop/Sparksubmit/src/main/scala/S90_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S75_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S95_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S30_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S85_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S55_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S95_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S60_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S25_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S75_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S35_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S5_000_000_T.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/hadoop/Sparksubmit/src/main/scala/S10_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S25_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S35_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S45_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S40_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S70_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S5_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S80_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S10_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S45_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S55_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S60_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S90_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S40_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S85_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S100_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S30_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S15_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S20_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S50_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S100_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S50_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S20_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S65_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S15_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S80_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S65_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S70_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/SparkPi.scala, /home/hadoop/Sparksubmit/src/main/scala/S90_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S75_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S95_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S30_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S85_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S55_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S95_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S60_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S25_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S75_000_000_T.scala, /home/hadoop/Sparksubmit/src/main/scala/S35_000_000.scala, /home/hadoop/Sparksubmit/src/main/scala/S5_000_000_T.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 41 sources: invalidated sources (41) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 41 Scala sources to /home/hadoop/Sparksubmit/src/main/scala/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.15:component from component compiler for Scala 2.10.6[0m
+[0m[[0minfo[0m] [0m'compiler-interface' not yet compiled for Scala 2.10.6. Compiling...[0m
+[0m[[0mdebug[0m] [0mPlain interface to Scala compiler 2.10.6  with arguments: [0m
+[0m[[0mdebug[0m] [0m	-nowarn[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_ea08c107[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/java/jdk1.8.0_131/jre/lib/resources.jar:/usr/java/jdk1.8.0_131/jre/lib/rt.jar:/usr/java/jdk1.8.0_131/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_131/jre/lib/jsse.jar:/usr/java/jdk1.8.0_131/jre/lib/jce.jar:/usr/java/jdk1.8.0_131/jre/lib/charsets.jar:/usr/java/jdk1.8.0_131/jre/lib/jfr.jar:/usr/java/jdk1.8.0_131/jre/classes:/home/hadoop/.sbt/boot/scala-2.10.6/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/hadoop/.sbt/boot/scala-2.10.6/org.scala-sbt/sbt/0.13.15/xsbti/interface-0.13.15.jar:/tmp/sbt_f58a98c6/srcs/org.scala-sbt/compiler-interface/compiler-interface-0.13.15-sources.jar:/home/hadoop/.sbt/boot/scala-2.10.6/lib/scala-compiler.jar:/home/hadoop/.sbt/boot/scala-2.10.6/lib/jansi.jar:/home/hadoop/.sbt/boot/scala-2.10.6/lib/jline.jar:/home/hadoop/.sbt/boot/scala-2.10.6/lib/scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_ca01e763/xsbt/API.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_ca01e763/xsbt/Analyzer.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_ca01e763/xsbt/Command.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_ca01e763/xsbt/Compat.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_ca01e763/xsbt/CompilerInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_ca01e763/xsbt/ConsoleInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_ca01e763/xsbt/DelegatingReporter.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_ca01e763/xsbt/Dependency.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_ca01e763/xsbt/ExtractAPI.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_ca01e763/xsbt/ExtractUsedNames.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_ca01e763/xsbt/GlobalHelpers.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_ca01e763/xsbt/LocateClassFile.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_ca01e763/xsbt/Log.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_ca01e763/xsbt/Message.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_ca01e763/xsbt/ScaladocInterface.scala[0m
+[0m[[0minfo[0m] [0m  Compilation completed in 7.524 s[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.15:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 58a06dcd, interfacing (CompilerInterface) with Scala compiler version 2.10.6[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/java/jdk1.8.0_131/jre/lib/resources.jar:/usr/java/jdk1.8.0_131/jre/lib/rt.jar:/usr/java/jdk1.8.0_131/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_131/jre/lib/jsse.jar:/usr/java/jdk1.8.0_131/jre/lib/jce.jar:/usr/java/jdk1.8.0_131/jre/lib/charsets.jar:/usr/java/jdk1.8.0_131/jre/lib/jfr.jar:/usr/java/jdk1.8.0_131/jre/classes:/home/hadoop/.sbt/boot/scala-2.10.6/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/hadoop/Sparksubmit/src/main/scala/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S100_000_000.scala:2: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.ALS[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S100_000_000.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S100_000_000.scala:4: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.Rating[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S100_000_000.scala:5: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S100_000_000.scala:9: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m        val sc = new SparkContext(new SparkConf().setAppName("S100_000_000"))[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S100_000_000.scala:14: not found: value ALS[0m
+[0m[[31merror[0m] [0m        val model = ALS.train(ratings, rank, numIterations, 0.01)[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S100_000_000.scala:24: not found: value MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m        val saveModel = MatrixFactorizationModel.load(sc, "hdfs://sd-spark01.localdomain:9000/S100_000_000")[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S100_000_000_T.scala:2: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.ALS[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S100_000_000_T.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S100_000_000_T.scala:4: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.Rating[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S100_000_000_T.scala:5: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S100_000_000_T.scala:9: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m        val sc = new SparkContext(new SparkConf().setAppName("S100_000_000"))[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S100_000_000_T.scala:14: not found: value ALS[0m
+[0m[[31merror[0m] [0m        val model = ALS.train(ratings, 50, 15, 0.01)[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S100_000_000_T.scala:24: not found: value MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m        val saveModel = MatrixFactorizationModel.load(sc, "hdfs://sd-spark01.localdomain:9000/S100_000_000")[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S10_000_000.scala:2: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.ALS[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S10_000_000.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S10_000_000.scala:4: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.Rating[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S10_000_000.scala:5: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S10_000_000.scala:9: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m        val sc = new SparkContext(new SparkConf().setAppName("S10_000_000"))[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S10_000_000.scala:14: not found: value ALS[0m
+[0m[[31merror[0m] [0m        val model = ALS.train(ratings, rank, numIterations, 0.01)[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S10_000_000.scala:24: not found: value MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m        val saveModel = MatrixFactorizationModel.load(sc, "hdfs://sd-spark01.localdomain:9000/S10_000_000")[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S10_000_000_T.scala:2: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.ALS[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S10_000_000_T.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S10_000_000_T.scala:4: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.Rating[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S10_000_000_T.scala:5: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S10_000_000_T.scala:9: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m        val sc = new SparkContext(new SparkConf().setAppName("S10_000_000"))[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S10_000_000_T.scala:14: not found: value ALS[0m
+[0m[[31merror[0m] [0m        val model = ALS.train(ratings, 60, 15, 0.01)[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S10_000_000_T.scala:24: not found: value MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m        val saveModel = MatrixFactorizationModel.load(sc, "hdfs://sd-spark01.localdomain:9000/S10_000_000")[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S15_000_000.scala:2: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.ALS[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S15_000_000.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S15_000_000.scala:4: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.Rating[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S15_000_000.scala:5: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S15_000_000.scala:9: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m        val sc = new SparkContext(new SparkConf().setAppName("S15_000_000"))[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S15_000_000.scala:14: not found: value ALS[0m
+[0m[[31merror[0m] [0m        val model = ALS.train(ratings, rank, numIterations, 0.01)[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S15_000_000.scala:24: not found: value MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m        val saveModel = MatrixFactorizationModel.load(sc, "hdfs://sd-spark01.localdomain:9000/S15_000_000")[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S15_000_000_T.scala:2: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.ALS[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S15_000_000_T.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S15_000_000_T.scala:4: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.Rating[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S15_000_000_T.scala:5: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S15_000_000_T.scala:9: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m        val sc = new SparkContext(new SparkConf().setAppName("S15_000_000"))[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S15_000_000_T.scala:14: not found: value ALS[0m
+[0m[[31merror[0m] [0m        val model = ALS.train(ratings, 60, 15, 0.01)[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S15_000_000_T.scala:24: not found: value MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m        val saveModel = MatrixFactorizationModel.load(sc, "hdfs://sd-spark01.localdomain:9000/S15_000_000")[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S20_000_000.scala:2: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.ALS[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S20_000_000.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S20_000_000.scala:4: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.Rating[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S20_000_000.scala:5: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S20_000_000.scala:9: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m        val sc = new SparkContext(new SparkConf().setAppName("S20_000_000"))[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S20_000_000.scala:14: not found: value ALS[0m
+[0m[[31merror[0m] [0m        val model = ALS.train(ratings, rank, numIterations, 0.01)[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S20_000_000.scala:24: not found: value MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m        val saveModel = MatrixFactorizationModel.load(sc, "hdfs://sd-spark01.localdomain:9000/S20_000_000")[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S20_000_000_T.scala:2: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.ALS[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S20_000_000_T.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S20_000_000_T.scala:4: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.Rating[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S20_000_000_T.scala:5: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S20_000_000_T.scala:9: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m        val sc = new SparkContext(new SparkConf().setAppName("S20_000_000"))[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S20_000_000_T.scala:14: not found: value ALS[0m
+[0m[[31merror[0m] [0m        val model = ALS.train(ratings, 60, 15, 0.01)[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S20_000_000_T.scala:24: not found: value MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m        val saveModel = MatrixFactorizationModel.load(sc, "hdfs://sd-spark01.localdomain:9000/S20_000_000")[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S25_000_000.scala:2: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.ALS[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S25_000_000.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S25_000_000.scala:4: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.Rating[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S25_000_000.scala:5: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S25_000_000.scala:9: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m        val sc = new SparkContext(new SparkConf().setAppName("S25_000_000"))[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S25_000_000.scala:14: not found: value ALS[0m
+[0m[[31merror[0m] [0m        val model = ALS.train(ratings, rank, numIterations, 0.01)[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S25_000_000.scala:24: not found: value MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m        val saveModel = MatrixFactorizationModel.load(sc, "hdfs://sd-spark01.localdomain:9000/S25_000_000")[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S25_000_000_T.scala:2: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.ALS[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S25_000_000_T.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S25_000_000_T.scala:4: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.Rating[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S25_000_000_T.scala:5: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S25_000_000_T.scala:9: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m        val sc = new SparkContext(new SparkConf().setAppName("S25_000_000"))[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S25_000_000_T.scala:14: not found: value ALS[0m
+[0m[[31merror[0m] [0m        val model = ALS.train(ratings, 60, 15, 0.01)[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S25_000_000_T.scala:24: not found: value MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m        val saveModel = MatrixFactorizationModel.load(sc, "hdfs://sd-spark01.localdomain:9000/S25_000_000")[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S30_000_000.scala:2: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.ALS[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S30_000_000.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S30_000_000.scala:4: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.Rating[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S30_000_000.scala:5: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S30_000_000.scala:9: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m        val sc = new SparkContext(new SparkConf().setAppName("S30_000_000"))[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S30_000_000.scala:14: not found: value ALS[0m
+[0m[[31merror[0m] [0m        val model = ALS.train(ratings, rank, numIterations, 0.01)[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S30_000_000.scala:24: not found: value MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m        val saveModel = MatrixFactorizationModel.load(sc, "hdfs://sd-spark01.localdomain:9000/S30_000_000")[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S30_000_000_T.scala:2: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.ALS[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S30_000_000_T.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S30_000_000_T.scala:4: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.Rating[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S30_000_000_T.scala:5: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S30_000_000_T.scala:9: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m        val sc = new SparkContext(new SparkConf().setAppName("S30_000_000"))[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S30_000_000_T.scala:14: not found: value ALS[0m
+[0m[[31merror[0m] [0m        val model = ALS.train(ratings, 60, 15, 0.01)[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S30_000_000_T.scala:24: not found: value MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m        val saveModel = MatrixFactorizationModel.load(sc, "hdfs://sd-spark01.localdomain:9000/S30_000_000")[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S35_000_000.scala:2: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.ALS[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S35_000_000.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S35_000_000.scala:4: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.Rating[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S35_000_000.scala:5: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S35_000_000.scala:9: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m        val sc = new SparkContext(new SparkConf().setAppName("S35_000_000"))[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S35_000_000.scala:14: not found: value ALS[0m
+[0m[[31merror[0m] [0m        val model = ALS.train(ratings, rank, numIterations, 0.01)[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S35_000_000.scala:24: not found: value MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m        val saveModel = MatrixFactorizationModel.load(sc, "hdfs://sd-spark01.localdomain:9000/S35_000_000")[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S35_000_000_T.scala:2: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.ALS[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S35_000_000_T.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S35_000_000_T.scala:4: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.Rating[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S35_000_000_T.scala:5: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S35_000_000_T.scala:9: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m        val sc = new SparkContext(new SparkConf().setAppName("S35_000_000"))[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S35_000_000_T.scala:14: not found: value ALS[0m
+[0m[[31merror[0m] [0m        val model = ALS.train(ratings, 60, 15, 0.01)[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S35_000_000_T.scala:24: not found: value MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m        val saveModel = MatrixFactorizationModel.load(sc, "hdfs://sd-spark01.localdomain:9000/S35_000_000")[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S40_000_000.scala:2: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.ALS[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/hadoop/Sparksubmit/src/main/scala/S40_000_000.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.mllib.recommendation.MatrixFactorizationModel[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m283 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m
