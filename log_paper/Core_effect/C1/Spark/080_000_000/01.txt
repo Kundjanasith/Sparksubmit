@@ -1048,3 +1048,63 @@ Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
 17/06/30 14:04:28 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 13 to sd-spark04.localdomain:47842
 17/06/30 14:04:28 INFO BlockManagerInfo: Added broadcast_27_piece0 in memory on sd-spark02.localdomain:35414 (size: 8.0 KB, free: 5.1 GB)
 17/06/30 14:04:28 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 13 to sd-spark02.localdomain:46906
+17/06/30 14:04:56 INFO TaskSetManager: Finished task 1.0 in stage 31.0 (TID 120) in 27984 ms on sd-spark02.localdomain (1/4)
+17/06/30 14:04:56 INFO TaskSetManager: Finished task 0.0 in stage 31.0 (TID 121) in 28028 ms on sd-spark06.localdomain (2/4)
+17/06/30 14:04:56 INFO TaskSetManager: Finished task 3.0 in stage 31.0 (TID 122) in 28066 ms on sd-spark04.localdomain (3/4)
+17/06/30 14:04:57 INFO TaskSetManager: Finished task 2.0 in stage 31.0 (TID 119) in 28232 ms on sd-spark03.localdomain (4/4)
+17/06/30 14:04:57 INFO TaskSchedulerImpl: Removed TaskSet 31.0, whose tasks have all completed, from pool 
+17/06/30 14:04:57 INFO DAGScheduler: ShuffleMapStage 31 (flatMap at ALS.scala:1170) finished in 28.233 s
+17/06/30 14:04:57 INFO DAGScheduler: looking for newly runnable stages
+17/06/30 14:04:57 INFO DAGScheduler: running: Set()
+17/06/30 14:04:57 INFO DAGScheduler: waiting: Set(ShuffleMapStage 32, ShuffleMapStage 37, ShuffleMapStage 38, ShuffleMapStage 39, ShuffleMapStage 40, ResultStage 41, ShuffleMapStage 33, ShuffleMapStage 34, ShuffleMapStage 35, ShuffleMapStage 36)
+17/06/30 14:04:57 INFO DAGScheduler: failed: Set()
+17/06/30 14:04:57 INFO DAGScheduler: Submitting ShuffleMapStage 32 (MapPartitionsRDD[210] at flatMap at ALS.scala:1170), which has no missing parents
+17/06/30 14:04:57 INFO MemoryStore: Block broadcast_28 stored as values in memory (estimated size 28.2 KB, free 536.5 KB)
+17/06/30 14:04:57 INFO MemoryStore: Block broadcast_28_piece0 stored as bytes in memory (estimated size 8.2 KB, free 544.7 KB)
+17/06/30 14:04:57 INFO BlockManagerInfo: Added broadcast_28_piece0 in memory on 163.221.29.42:37414 (size: 8.2 KB, free: 511.0 MB)
+17/06/30 14:04:57 INFO SparkContext: Created broadcast 28 from broadcast at DAGScheduler.scala:1006
+17/06/30 14:04:57 INFO DAGScheduler: Submitting 4 missing tasks from ShuffleMapStage 32 (MapPartitionsRDD[210] at flatMap at ALS.scala:1170)
+17/06/30 14:04:57 INFO TaskSchedulerImpl: Adding task set 32.0 with 4 tasks
+17/06/30 14:04:57 INFO TaskSetManager: Starting task 0.0 in stage 32.0 (TID 123, sd-spark04.localdomain, partition 0,PROCESS_LOCAL, 2253 bytes)
+17/06/30 14:04:57 INFO TaskSetManager: Starting task 2.0 in stage 32.0 (TID 124, sd-spark03.localdomain, partition 2,PROCESS_LOCAL, 2253 bytes)
+17/06/30 14:04:57 INFO TaskSetManager: Starting task 3.0 in stage 32.0 (TID 125, sd-spark02.localdomain, partition 3,PROCESS_LOCAL, 2253 bytes)
+17/06/30 14:04:57 INFO TaskSetManager: Starting task 1.0 in stage 32.0 (TID 126, sd-spark06.localdomain, partition 1,PROCESS_LOCAL, 2253 bytes)
+17/06/30 14:04:57 INFO BlockManagerInfo: Added broadcast_28_piece0 in memory on sd-spark03.localdomain:43161 (size: 8.2 KB, free: 4.9 GB)
+17/06/30 14:04:57 INFO BlockManagerInfo: Added broadcast_28_piece0 in memory on sd-spark02.localdomain:35414 (size: 8.2 KB, free: 5.1 GB)
+17/06/30 14:04:57 INFO BlockManagerInfo: Added broadcast_28_piece0 in memory on sd-spark06.localdomain:46604 (size: 8.2 KB, free: 5.1 GB)
+17/06/30 14:04:57 INFO BlockManagerInfo: Added broadcast_28_piece0 in memory on sd-spark04.localdomain:41727 (size: 8.2 KB, free: 5.0 GB)
+17/06/30 14:04:57 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 12 to sd-spark03.localdomain:39632
+17/06/30 14:04:57 INFO MapOutputTrackerMaster: Size of output statuses for shuffle 12 is 189 bytes
+17/06/30 14:04:57 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 12 to sd-spark02.localdomain:46906
+17/06/30 14:04:57 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 12 to sd-spark06.localdomain:40464
+17/06/30 14:04:57 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 12 to sd-spark04.localdomain:47842
+17/06/30 14:05:22 INFO TaskSetManager: Finished task 3.0 in stage 32.0 (TID 125) in 25624 ms on sd-spark02.localdomain (1/4)
+17/06/30 14:05:23 INFO TaskSetManager: Finished task 1.0 in stage 32.0 (TID 126) in 25997 ms on sd-spark06.localdomain (2/4)
+17/06/30 14:05:23 INFO TaskSetManager: Finished task 0.0 in stage 32.0 (TID 123) in 26665 ms on sd-spark04.localdomain (3/4)
+17/06/30 14:05:25 INFO TaskSetManager: Finished task 2.0 in stage 32.0 (TID 124) in 28580 ms on sd-spark03.localdomain (4/4)
+17/06/30 14:05:25 INFO TaskSchedulerImpl: Removed TaskSet 32.0, whose tasks have all completed, from pool 
+17/06/30 14:05:25 INFO DAGScheduler: ShuffleMapStage 32 (flatMap at ALS.scala:1170) finished in 28.580 s
+17/06/30 14:05:25 INFO DAGScheduler: looking for newly runnable stages
+17/06/30 14:05:25 INFO DAGScheduler: running: Set()
+17/06/30 14:05:25 INFO DAGScheduler: waiting: Set(ShuffleMapStage 37, ShuffleMapStage 38, ShuffleMapStage 39, ShuffleMapStage 40, ResultStage 41, ShuffleMapStage 33, ShuffleMapStage 34, ShuffleMapStage 35, ShuffleMapStage 36)
+17/06/30 14:05:25 INFO DAGScheduler: failed: Set()
+17/06/30 14:05:25 INFO DAGScheduler: Submitting ShuffleMapStage 33 (MapPartitionsRDD[219] at flatMap at ALS.scala:1170), which has no missing parents
+17/06/30 14:05:25 INFO MemoryStore: Block broadcast_29 stored as values in memory (estimated size 29.1 KB, free 573.8 KB)
+17/06/30 14:05:25 INFO MemoryStore: Block broadcast_29_piece0 stored as bytes in memory (estimated size 8.3 KB, free 582.1 KB)
+17/06/30 14:05:25 INFO BlockManagerInfo: Added broadcast_29_piece0 in memory on 163.221.29.42:37414 (size: 8.3 KB, free: 511.0 MB)
+17/06/30 14:05:25 INFO SparkContext: Created broadcast 29 from broadcast at DAGScheduler.scala:1006
+17/06/30 14:05:25 INFO DAGScheduler: Submitting 4 missing tasks from ShuffleMapStage 33 (MapPartitionsRDD[219] at flatMap at ALS.scala:1170)
+17/06/30 14:05:25 INFO TaskSchedulerImpl: Adding task set 33.0 with 4 tasks
+17/06/30 14:05:25 INFO TaskSetManager: Starting task 2.0 in stage 33.0 (TID 127, sd-spark03.localdomain, partition 2,PROCESS_LOCAL, 2253 bytes)
+17/06/30 14:05:25 INFO TaskSetManager: Starting task 1.0 in stage 33.0 (TID 128, sd-spark02.localdomain, partition 1,PROCESS_LOCAL, 2253 bytes)
+17/06/30 14:05:25 INFO TaskSetManager: Starting task 0.0 in stage 33.0 (TID 129, sd-spark06.localdomain, partition 0,PROCESS_LOCAL, 2253 bytes)
+17/06/30 14:05:25 INFO TaskSetManager: Starting task 3.0 in stage 33.0 (TID 130, sd-spark04.localdomain, partition 3,PROCESS_LOCAL, 2253 bytes)
+17/06/30 14:05:25 INFO BlockManagerInfo: Added broadcast_29_piece0 in memory on sd-spark02.localdomain:35414 (size: 8.3 KB, free: 5.1 GB)
+17/06/30 14:05:25 INFO BlockManagerInfo: Added broadcast_29_piece0 in memory on sd-spark06.localdomain:46604 (size: 8.3 KB, free: 5.1 GB)
+17/06/30 14:05:25 INFO BlockManagerInfo: Added broadcast_29_piece0 in memory on sd-spark04.localdomain:41727 (size: 8.3 KB, free: 5.0 GB)
+17/06/30 14:05:25 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 11 to sd-spark02.localdomain:46906
+17/06/30 14:05:25 INFO MapOutputTrackerMaster: Size of output statuses for shuffle 11 is 189 bytes
+17/06/30 14:05:25 INFO BlockManagerInfo: Added broadcast_29_piece0 in memory on sd-spark03.localdomain:43161 (size: 8.3 KB, free: 4.9 GB)
+17/06/30 14:05:25 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 11 to sd-spark06.localdomain:40464
+17/06/30 14:05:25 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 11 to sd-spark04.localdomain:47842
+17/06/30 14:05:25 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 11 to sd-spark03.localdomain:39632
